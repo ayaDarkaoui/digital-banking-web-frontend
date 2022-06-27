@@ -11,7 +11,7 @@ export class CustomerAccountsComponent implements OnInit {
 
   customerId !: string;
   customer !: Customer;
-  //comment
+  //comment2
   constructor(private route : ActivatedRoute,private router :Router) {
     this.customer=this.router.getCurrentNavigation()?.extras.state as Customer;
   }
